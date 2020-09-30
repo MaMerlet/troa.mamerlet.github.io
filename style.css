@@ -1,0 +1,222 @@
+@font-face {
+font-family: "Druk Cond Super";
+src: url("DrukCondSuper.otf") format("opentype");
+}
+
+@font-face {
+font-family: "Druk Wide Super";
+src: url("DrukWideSuper.otf") format("opentype");
+}
+
+body{
+    background-color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    width: 100%;
+    display: flex;
+    margin: 0px;
+    overflow-x: hidden;
+}
+h2 {
+	font-size: 80px;
+	font-family: 'Druk Cond Super', sans-serif;
+	font-weight: inherit;
+	line-height: 85px;
+	text-transform:uppercase;
+}
+
+p{font-size:14px;}
+button{  
+background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor:pointer;
+  }
+  
+  h3{font-size:20px;color:#cccccc;}
+hr{color:#cccccc;border-top:1px;}
+
+
+.beer-tag-line{font-weight:bold;margin-top:-50px;text-transform:uppercase;}
+.beers {
+	height: 1131px;
+	transform: rotate(90deg);
+	color: #FFCF00;
+	font-family: 'Druk Wide Super', sans-serif;
+	font-size: 884px;
+	letter-spacing: 0;
+	position: absolute;
+	width: 1440px;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+z-index:-5;
+}
+
+.header-bar{
+	
+	width: 100%;
+height: 120px;
+background: white;
+position: fixed;
+border-bottom:1px solid #D8D8D8;
+}
+
+.header-bar h2 {
+	position: absolute;
+	left: 100px;
+	top: -40px;
+}
+
+
+#beer-directory {
+	max-width: 1440px;
+	display: block;
+	margin: 180px auto 0 auto;
+	width: 100%;
+}
+#beer-module {
+	max-width: 1440px;
+	margin: 0 auto;
+	display: none;
+	position: fixed;
+	left: 0;
+	right: 0;
+	background: white;
+	height: calc(100% - 121px);
+	bottom: 0;
+}
+.beer-image {
+	height: auto;
+	width: 182px;
+}
+.beer-wrap{
+width:60%;
+
+}
+
+.right-inner {
+	padding: 0 2vw 0 5vw;
+}
+.right-inner b.beer-tagline {
+	margin-top: -60px;
+	position: absolute;
+	text-transform: uppercase;
+}
+
+.module-right span{float:right;}
+.module-right ul {
+	text-align: right;
+	list-style-type: none;
+	margin-top: -16px;
+}
+
+
+.close {
+	font-size: 80px;
+	transform: rotate(-45deg);
+	position: absolute;
+	left: -30px;
+	right: 0;
+	margin: 0 auto;
+	width: 50px;
+	cursor: pointer;
+	height: 50px;
+	text-align: center;
+	top: -93px;
+}
+.beer-name{
+	margin-top: 40%;
+	
+}
+
+.m-beer-image-module img {
+	height: 75vh;
+	position: absolute;
+	margin: 7vh auto;
+	left: 0;
+	right: 0;
+}
+
+.module-left {
+	width: 50%;
+	position: absolute;
+}
+.module-right {
+	width: 50%;
+	position: absolute;
+	right: 0;
+	border-left:1px solid #D8D8D8;
+}
+
+.beer-card:nth-of-type(even) .beer-wrap{
+  float:right; 
+  clear:right;
+
+}
+.beer-card:nth-of-type(odd) .beer-wrap{
+ float:left;  
+ clear:left;  
+text-align: right; 
+}
+
+.beer-card:nth-of-type(even) .beer-image{
+ float:left;  
+ clear:left;
+ margin-left:75px;
+}
+.beer-card:nth-of-type(odd) .beer-image{
+  float:right; 
+  clear:right;
+      margin-right:75px;
+}
+
+#beer-title-big {
+	color: #FFCE00;
+	font-size: 400px;
+	position: absolute;
+	z-index: 0;
+	margin: 50px auto;
+	left: 0;
+	right: 0;
+	font-family: 'Druk Cond Super', sans-serif;
+	text-transform: uppercase;
+	line-height:324px;
+}
+
+
+.beer-card:nth-of-type(even) {
+	float: right;
+	clear: right;
+	margin-top: 340px;
+	width: 50%;
+}
+
+.beer-card:nth-of-type(odd) {
+ float:left;  
+ clear:left;
+ width:50%;
+margin-bottom:240px;
+}
+
+.beer-information img{
+    height: 250px;
+    width: auto;
+}
+.beer-information h2{
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+}
+.beer-information-p{
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+@media only screen and (min-width: 500px) {
+}
